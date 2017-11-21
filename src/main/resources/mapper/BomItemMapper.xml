@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.BomItemMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.BomItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="materials_type" jdbcType="INTEGER" property="materialsType" />
+    <result column="pic_no" jdbcType="VARCHAR" property="picNo" />
+    <result column="mat_spec_desc" jdbcType="VARCHAR" property="matSpecDesc" />
+    <result column="weight" jdbcType="VARCHAR" property="weight" />
+    <result column="amount" jdbcType="VARCHAR" property="amount" />
+    <result column="unit" jdbcType="VARCHAR" property="unit" />
+    <result column="crafts" jdbcType="VARCHAR" property="crafts" />
+    <result column="mold_cost" jdbcType="VARCHAR" property="moldCost" />
+    <result column="product_price" jdbcType="VARCHAR" property="productPrice" />
+    <result column="food_safety_certification" jdbcType="VARCHAR" property="foodSafetyCertification" />
+    <result column="supply_company" jdbcType="VARCHAR" property="supplyCompany" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="bom_id" jdbcType="INTEGER" property="bomId" />
+  </resultMap>
+</mapper>

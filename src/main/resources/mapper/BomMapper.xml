@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.BomMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.Bom">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="voltage" jdbcType="VARCHAR" property="voltage" />
+    <result column="client" jdbcType="VARCHAR" property="client" />
+    <result column="certification" jdbcType="VARCHAR" property="certification" />
+    <result column="rohs" jdbcType="BIT" property="rohs" />
+    <result column="reach" jdbcType="BIT" property="reach" />
+    <result column="project_id" jdbcType="INTEGER" property="projectId" />
+  </resultMap>
+</mapper>

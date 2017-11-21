@@ -1,0 +1,11 @@
+package com.company.project.service;
+import com.company.project.model.Bom;
+import com.company.project.core.Service;
+
+
+/**
+ * Created by CodeGenerator on 2017/11/21.
+ */
+public interface BomService extends Service<Bom> {
+
+}
